@@ -18,6 +18,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 public class RestExceptionHandler {
 	private static final Logger log = LoggerFactory.getLogger(SampleRestApiController.class);
 
+	//RestControllerを横断して処理してくれる
 	@ExceptionHandler
 	private ResponseEntity<String> onError(Exception ex){
 		log.error(ex.getMessage(), ex);

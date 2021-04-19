@@ -56,7 +56,7 @@ public class HogeMogeBean {
 		return json;
 	}
 
-	//Beanを用いず、Mapをそのまま返してJSON形式で出力させる方法
+	//Beanを用いず、Mapをそのまま返してJSON形式で出力させる方法。
 	@RequestMapping("/hogemoge3")
 	public Map<String, Object> map() {
 		Map<String, Object> map = new HashMap<>();

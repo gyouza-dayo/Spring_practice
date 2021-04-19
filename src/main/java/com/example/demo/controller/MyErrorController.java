@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MyErrorController implements ErrorController{
 	
+	//Controllerの処理に入る前に起きたエラーを対応してくれる
 	@RequestMapping("/error")
 	public ResponseEntity<String> handleError(){
 		return new ResponseEntity<String> ("メソッドの実行が上手く行ってないよ ;)", HttpStatus.INTERNAL_SERVER_ERROR);

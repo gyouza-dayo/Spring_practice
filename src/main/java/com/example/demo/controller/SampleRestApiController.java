@@ -49,7 +49,7 @@ public class SampleRestApiController {
 		return "登録だよ";
 	}
 	
-	//参照：CRUDでいう <b>R:READ</b> を行うAPI
+	//参照：CRUDでいう <b>R:READ</b> を行うAPI。
 	@RequestMapping(value="/resource/{id}" , method=RequestMethod.GET)
 	private String read(@PathVariable("id") String id) {
 		return "参照だよ";

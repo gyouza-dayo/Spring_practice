@@ -38,7 +38,7 @@ public class WebApiController {
 		return "RequestParam 受け取ったパラメータ " + param;
 	}
 
-	//POST形式でJSONなどの値を受け取る事が出来る
+	//POST形式でJSONなどの値を受け取る事が出来る。
 	//ブラウザ上でPOST送信が出来るアプリを使って動作確認をした。
 	@RequestMapping(value = "/test", method = RequestMethod.POST)
 	private String testRequestBody(@RequestBody String body) {
