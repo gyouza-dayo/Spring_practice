@@ -4,6 +4,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.client.RestTemplate;
 
 /*
  * https://weather.tsukumijima.net/api/forecast が元のURI
@@ -18,7 +19,7 @@ public class SampleApiController {
 			method=RequestMethod.GET)
 	public String call() {
 		
-		
+		RestTemplate rest = new RestTemplate();
 		
 		
 		
