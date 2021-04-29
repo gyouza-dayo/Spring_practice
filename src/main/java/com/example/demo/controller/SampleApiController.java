@@ -20,7 +20,8 @@ public class SampleApiController {
 	public String call() {
 		
 		RestTemplate rest = new RestTemplate();
-		
+		final String cityCode = "140020";
+		final String endPoint = "https://weather.tsukumijima.net/api/forecast";
 		
 		
 		return null;
