@@ -1,6 +1,6 @@
 # Spring_practice
 SpringBootを体感していく学習記録レポジトリ。  
-この学習を終えたらVSCode + Gradleに環境を変えてWebアプリケーションを制作予定。
+この学習を終えたらVSCode + Gradle + MyBaitsに環境を変えてWebアプリケーションを制作予定。
 
 ## 環境
 Windows10  
