@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymelerf.org">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>今何時アプリケーション</title>
+<link th:href="@{/css/common.css}" rel="stylesheet"></link>
+<script th:src="@{/js/common.js}"></script>
+<link rel="stylesheet" th:href="@{/webjars/bootstrap/4.5.2/css/bootstrap.min.css}">
+</head>
+<body>
+	<h1 th:text="'Whet time is it?'"></h1>
+	<div class="border">
+		<p th:text="${datetime}"><p>
+	</div>
+	</body>
+</html>
